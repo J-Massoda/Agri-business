@@ -14,7 +14,9 @@
   <!-- swiper css  -->
   <link rel="stylesheet" href="css/swiper-bundle.min.css">
   <!-- css  -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/login-profile.css">
+
+  <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
 
   <title>Agri Business</title>
 
@@ -22,114 +24,99 @@
 
 
 <body>
+  <!-- PAge content  -->
+  <div id="pre">
 
-  <header class="header" id="header">
-    <nav class="nav container">
-      <a href="#" class="nav-logo">Agri-Business</a>
+  </div>
+  <div class="container">
+    <div class="forms-container">
+      <div class="signin-signup">
+        <form action="#" class="sign-in-form">
+          <h2 class="title">Login</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <a href="index.html">
+            <input type="submit" value="Login" class="btn solid" />
+          </a>
 
-      <div class="nav-menu" id="nav-menu">
-        <ul class="nav-list grid">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link active-link">
-              <i class="uil uil-estate nav-icon"></i>Home
+          <p class="social-text">Or Sign in with social platforms</p>
+          <div class="social-media">
+            <a href="##" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="#features" class="nav-link">
-              <i class="uil uil-transaction nav-icon"></i></i>Features
+
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="products.html" class="nav-link">
-              <i class="uil uil-store nav-icon"></i>Products
+
+          </div>
+        </form>
+        <form action="#" class="sign-up-form">
+          <h2 class="title">Sign up</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Username" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder="Password" />
+          </div>
+          <input type="submit" class="btn" value="Sign up" />
+          <p class="social-text">Or Sign up with social platforms</p>
+          <div class="social-media">
+            <a href="#" class="social-icon">
+              <i class="fab fa-facebook-f"></i>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="service.html" class="nav-link">
-              <i class="uil uil-balance-scale nav-icon"></i></i> Services
+
+            <a href="#" class="social-icon">
+              <i class="fab fa-google"></i>
             </a>
-          </li>
-          <li class="nav-item">
-            <a href="payment.html" class="nav-link">
-              <i class="uil uil-shopping-cart-alt nav-icon"></i>Cart
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="login-profile.html" class="nav-link">
-              <i class="uil uil-user nav-icon"></i> Profile
-            </a>
-          </li>
-        </ul>
-        <i class="uil uil-times nav-close nav-icon" id="nav-close"></i>
-      </div>
-      <div class="nav-btns">
-        <div class="nav-toggle" id="nav-toggle">
-          <i class="uil uil-apps nav-icon"></i>
-        </div>
-      </div>
-    </nav>
-  </header>
 
-
-
-
-
-
-  <!-- footer section starts  -->
-
-  <section class="footer">
-    <div class="box-container">
-      <div class="box">
-        <h3>Door-step <i class="fas fa-shopping-basket"></i></h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam,
-          saepe.
-        </p>
-        <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-twitter"></a>
-          <a href="#" class="fab fa-instagram"></a>
-        </div>
-      </div>
-
-      <div class="box">
-        <h3>contact info</h3>
-        <a href="#" class="links">
-          <i class="fas fa-phone"></i> +1-*********
-        </a>
-        <a href="#" class="links">
-          <i class="fas fa-envelope"></i> xyz@mail.com
-        </a>
-        <a href="#" class="links">
-          <i class="fas fa-map-marker-alt"></i> abc, xyz - ******
-        </a>
-      </div>
-
-      <div class="box">
-        <h3>quick links</h3>
-        <a href="#" class="links">
-          <i class="fas fa-arrow-right"></i> home
-        </a>
-        <a href="#" class="links">
-          <i class="fas fa-arrow-right"></i> features
-        </a>
-        <a href="#" class="links">
-          <i class="fas fa-arrow-right"></i> products
-        </a>
-        <a href="#" class="links">
-          <i class="fas fa-arrow-right"></i> categories
-        </a>
-      </div>
-
-      <div class="box">
-        <img src="image/payment.png" class="payment-img" alt="" />
+          </div>
+        </form>
       </div>
     </div>
 
-    <div class="credit">
-      Shopping<span> Website</span>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>New to Agri-Business ?</h3>
+          <p style="font-size:x-large; font-weight: bold;">
+            WELCOME
+          </p>
+          <button class="btn transparent" id="sign-up-btn">
+            Sign up
+          </button>
+        </div>
+        <img src="img/log.svg" class="image" alt="" />
+      </div>
+      <div class="panel right-panel">
+        <div class="content">
+          <h3>Already have an account? ?</h3>
+          <p style="font-weight: bold; font-size: x-large;">
+            Welcome
+          </p>
+          <button class="btn transparent" id="sign-in-btn">
+            Login
+          </button>
+        </div>
+        <img src="img/register.svg" class="image" alt="" />
+      </div>
     </div>
-  </section>
+  </div>
+
+
+
   <!-- main js  -->
   <script src="js/main.js"></script>
 </body>
